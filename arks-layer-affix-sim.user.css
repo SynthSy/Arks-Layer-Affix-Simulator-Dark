@@ -269,4 +269,7 @@
 	    background: #6e757b;
 	    border-color: #3A3F44;
     }
+	.x-boundlist-item {
+		border-style:none;
+	}
 }
