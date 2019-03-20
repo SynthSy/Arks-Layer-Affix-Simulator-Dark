@@ -5,9 +5,9 @@
 @license     CC-BY-SA-4.0
 @author      SynthSy
 @homepageURL https://github.com/SynthSy/Arks-Layer-Affix-Simulator-Dark
-*/
-
+==/UserStyle== */
 @-moz-document url("arks-layer.com/abilitysim/"), url-prefix("arks-layer.com/abilitysim/"), domain("arks-layer.com/abilitysim/") {
+
     ::-webkit-scrollbar-button {
         background-color: #666;
     }
