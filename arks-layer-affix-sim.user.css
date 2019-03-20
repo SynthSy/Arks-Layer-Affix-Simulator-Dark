@@ -1,7 +1,8 @@
+@-moz-document url-prefix("https://arks-layer.com/abilitysim/") {
 /* ==UserStyle==
 @name        Arks-Layer Ability Sim Dark
 @namespace   Arks-Layer
-@version     1.0.1
+@version     1.0.0
 @license     CC-BY-SA-4.0
 @author      SynthSy
 @homepageURL https://github.com/SynthSy/Arks-Layer-Affix-Simulator-Dark
@@ -230,3 +231,31 @@
         border-color: #3A3F44;
         background-color: #222;
     }
+    a#long_link,a#short_link {
+     color:white;   
+    }
+    button {
+        display: inline-block;
+        color: #aaa;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: 0.75rem 1rem;
+        border-radius: 0.25rem;
+        -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#484e55), color-stop(60%, #3A3F44), to(#313539));
+        background-image: linear-gradient(#484e55, #3A3F44 60%, #313539);
+        background-repeat: no-repeat;
+        -webkit-filter: none;
+        filter: none;
+        cursor:pointer;
+    }
+}
