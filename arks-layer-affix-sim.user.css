@@ -1,4 +1,3 @@
-@-moz-document domain("arks-layer.com") {
 /* ==UserStyle==
 @name        Arks-Layer Ability Sim Dark
 @namespace   Arks-Layer
@@ -8,7 +7,6 @@
 @homepageURL https://github.com/SynthSy/Arks-Layer-Affix-Simulator-Dark
 */
 
-/* ==/UserStyle== */
 @-moz-document url("arks-layer.com/abilitysim/"), url-prefix("arks-layer.com/abilitysim/"), domain("arks-layer.com/abilitysim/") {
     ::-webkit-scrollbar-button {
         background-color: #666;
@@ -220,7 +218,8 @@
     .x-tab-bar-body,.x-panel-default{
         border-color: #3A3F44;
     }
-    table#ps td#psh,table#ps td#ps,table#ps td{
+    
+	table#ps td#psh,table#ps td#ps,table#ps td{
         background: none;
         background-color: #222;
         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
