@@ -2,29 +2,42 @@
 /* ==UserStyle==
 @name        Arks-Layer Ability Sim Dark
 @namespace   Arks-Layer
-@version     1.0.2
+@version     1.0.9
 @license     CC-BY-SA-4.0
 @author      SynthSy
 @homepageURL https://github.com/SynthSy/Arks-Layer-Affix-Simulator-Dark
-@updateURL   https://synthsy.github.io/pso2-guide/pso2/arks-layer-affix-sim.user.css
+@updateURL   https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/arks-layer-affix-sim.user.css
 ==/UserStyle== */
 
-::-webkit-scrollbar-button {
-        background-color: #666;
+    .scrollbar {
+        margin-left: 30px;
+        float: left;
+        height: 300px;
+        width: 65px;
+        background: #F5F5F5;
+        overflow-y: scroll;
+        margin-bottom: 25px;
     }
-    ::-webkit-scrollbar-corner {
-        background-color: #646464;
+
+    .force-overflow {
+        min-height: 450px;
     }
-    ::-webkit-scrollbar-thumb {
-        height: 50px;
-        background-color: #666;
-        border-radius: 3px;
-    }
+    
     ::-webkit-scrollbar-track {
-        background-color: #646464;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #222;
     }
-    ::-webkit-scrollbar-track-piece {
-        background-color: #323740;
+
+    ::-webkit-scrollbar {
+        width: 12px;
+        background-color: #222;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #3A3F44;
     }
 
     .x-panel-header-default {
@@ -48,25 +61,30 @@
         background-color: #222;
         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
     }
-    .x-btn-default-toolbar-small .x-btn-inner,.x-form-item-label,
+    .x-btn-default-toolbar-small .x-btn-inner,
     .x-component-default, .x-component,
     .x-window-header-text-default {
         color: white;
+		background-color: #3A3F44;
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
     }
+	x-form-item-label {
+		color: white;
+	}
     .x-btn-default-small-over,
     .x-btn-default-small-focus,
     .x-btn-default-small-menu-active,
     .x-btn-default-small-pressed{
         background-color: #3A3F44;
-        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
-    }
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+   }
 
     .x-btn-default-small, .x-btn {
        border-color: #3A3F44;
        background-color: #3A3F44!important;
        color:white;
-       background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
-    }
+	   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+	}
 
     .x-grid-header-ct {
         border: 1px solid #18181a;
@@ -74,7 +92,7 @@
         background-color: #243b53;
     }
     .x-btn-default-small .x-btn-inner {
-        color:white;
+        color: white!important;
     }
     .x-tab-top-active {
         border: 1px solid #18181a;
@@ -146,11 +164,9 @@
         border-color: #3A3F44;
     }
 
-
     .x-column-header .x-unselectable .x-box-item .x-column-header .x-unselectable-default .x-column-header-align-left .x-column-header-first {
         background-color:#222;
     }
-
 
     .x-panel-body-default {
         background: transparent!important;
@@ -190,8 +206,6 @@
         background-color: #28415b !important
     }
 
-
-
     .x-grid-group-hd, .x-grid-group-hd .x-grid-cell-inner,.x-border-layout-ct {
         background-color: #222;
         border-color: #3A3F44;
@@ -213,8 +227,8 @@
     .x-tab button,.x-tab-default-top {
         background: none;
         background-color: #222;
-        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
         color: white;
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
     }
     .x-tab-bar-body,.x-panel-default{
         border-color: #3A3F44;
@@ -244,7 +258,7 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        background-color: transparent;
+        background-color: #3A3F44;
         border: 1px solid transparent;
         padding: 0.75rem 1rem;
         border-radius: 0.25rem;
@@ -263,13 +277,49 @@
         background: #222;
         border-color: #3A3F44;
         border: 1px solid transparent;
-        color:white
+        color: white;
     }
     .x-boundlist-selected {
 	    background: #6e757b;
 	    border-color: #3A3F44;
     }
 	.x-boundlist-item {
-		border-style:none;
+		border-style: none;
+	}
+	.x-menu-icon-separator {
+		display: none;
+	}
+	.x-menu-item-link {
+		margin: 1px;
+		padding: 5px;
+	}
+	.x-tool img {
+		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/tool-sprites.gif');
+	}
+	.x-add-icon {
+		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/add-panel.gif');
+	}	
+	.x-rename-icon {
+		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/rename.gif');
+	}
+	.x-save-icon {
+		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/save.gif');
+	}	
+	.x-load-icon {
+		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/load.gif');
+	}
+	x-window-item {
+		border-color:black;
+	}
+	.x-layout-split-left {
+        background-color:#3A3F44!important;
+        background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAjCAYAAABcmsDOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGTGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDE5LTAzLTIwVDAwOjAyOjE5LTA3OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxOS0wMy0yMFQwMDowMzo1Ny0wNzowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxOS0wMy0yMFQwMDowMzo1Ny0wNzowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4ODc4NjFiYy1lZjQ3LTk1NDYtYjBjZS01ZTQxNGRlM2QzZGMiIHhtcE1NOkRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpjYzI3NzJkNy00ODllLThjNDAtODQwNi05MmNkYWQ3OGZlYmYiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDplYmQwYmZiZi01YTg2LWNkNDQtYjkyZi0wOTA1MmVlZGVlNzIiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjcmVhdGVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmViZDBiZmJmLTVhODYtY2Q0NC1iOTJmLTA5MDUyZWVkZWU3MiIgc3RFdnQ6d2hlbj0iMjAxOS0wMy0yMFQwMDowMjoxOS0wNzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKFdpbmRvd3MpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjb252ZXJ0ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImZyb20gaW1hZ2UvZ2lmIHRvIGltYWdlL3BuZyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6ODg3ODYxYmMtZWY0Ny05NTQ2LWIwY2UtNWU0MTRkZTNkM2RjIiBzdEV2dDp3aGVuPSIyMDE5LTAzLTIwVDAwOjAzOjU3LTA3OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+QTNakwAAAFhJREFUKM9jVPivwIAMXNNc/zMiC4IEQDRcECQgISHB8OLFC4ggTAAEwIKpqalwgREi2NTUxJCWloYQBAmAAFxw1qxZcO34VeI0c5iHJ9a0hDPV4UyfyBIAkm2xbqTVICsAAAAASUVORK5CYII=')!important;
+    }
+	.x-form-trigger {
+		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/trigger.gif');
+		background-position: 0 0;
+	}
+	.x-tab-close-btn { 
+		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/close.gif');
 	}
 }
