@@ -65,7 +65,6 @@
     .x-component-default, .x-component,
     .x-window-header-text-default {
         color: white;
-		background-color: #3A3F44;
 		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
     }
 	x-form-item-label {
@@ -246,6 +245,9 @@
         border-color: #3A3F44;
         background-color: #222;
     }
+	.x-message-box .x-window-body {
+		background-color: transparent;
+	}
     a#long_link,a#short_link {
      color:white;   
     }
@@ -317,5 +319,8 @@
 	}
 	.x-tab-close-btn { 
 		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/close.gif');
+	}
+	.x-grid-group-hd-collapsed .x-grid-group-title {
+		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/group-expand.gif');
 	}
 }
