@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name        Arks-Layer Ability Sim Dark
 @namespace   Arks-Layer
-@version     1.1.1
+@version     1.1.2
 @license     CC-BY-SA-4.0
 @author      SynthSy
 @homepageURL https://github.com/SynthSy/Arks-Layer-Affix-Simulator-Dark
@@ -323,5 +323,8 @@
 	}
 	.x-grid-group-hd-collapsed .x-grid-group-title {
 		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/group-expand.gif');
+	}
+	.x-factor-icon {
+		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/x-factor.gif');
 	}
 }
