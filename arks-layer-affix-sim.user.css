@@ -289,10 +289,6 @@
 	.x-menu-icon-separator {
 		display: none;
 	}
-	.x-menu-item-link {
-		margin: 1px;
-		padding: 5px;
-	}
 	.x-tool img {
 		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/tool-sprites.gif');
 	}
