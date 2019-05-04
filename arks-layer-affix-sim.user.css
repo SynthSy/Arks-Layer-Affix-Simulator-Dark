@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name        Arks-Layer Ability Sim Dark
 @namespace   Arks-Layer
-@version     1.1.2
+@version     1.1.4
 @license     CC-BY-SA-4.0
 @author      SynthSy
 @homepageURL https://github.com/SynthSy/Arks-Layer-Affix-Simulator-Dark
@@ -217,7 +217,7 @@
         background-color: #222;
         border-color: #3A3F44;
         border-top-color: #1d1d1d;
-        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==) !important;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAAAAABURb1YAAAFnklEQ…coknlnOb8V4JD9Njfpwz/fHjpBUeevcAtcl65sqXPX9D87RUTLc/dfOgAAAABJRU5ErkJggg==);
     }
 
     .x-grid-group-title {
@@ -325,6 +325,14 @@
 		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/group-expand.gif');
 	}
 	.x-factor-icon {
-		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/x-factor.gif');
+		background-image: url('https://synthsy.github.io/Arks-Layer-Affix-Simulator-Dark/images/x-factor.gif')!important;
 	}
+	.ef-soul .x-grid-cell, .ef-soul .x-grid-rowwrap-div {
+		background-color: #d0e2bc !important;
+		color: black;
+	}
+	.zi-soul .x-grid-cell, .zi-soul .x-grid-rowwrap-div {
+		background-color: #77bbff !important;
+	}
+	
 }
